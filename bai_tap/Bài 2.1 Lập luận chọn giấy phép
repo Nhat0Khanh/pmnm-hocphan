@@ -1,0 +1,11 @@
+1. Thư viện Python xử lý tiếng Việt (Muốn được dùng rộng rãi nhất)
+Giấy phép lựa chọn: MIT License (hoặc Apache 2.0).
+Lập luận: Mục tiêu tối thượng của dự án là mức độ phủ sóng và phổ biến tối đa. Giấy phép Dễ dãi (Permissive) như MIT cho phép bất kỳ ai — từ sinh viên, nhà nghiên cứu đến các tập đoàn công nghệ lớn — đều có thể tích hợp thư viện này vào sản phẩm của họ (cả mở lẫn đóng nguồn) mà không sợ rào cản pháp lý. Nghĩa vụ duy nhất là giữ lại thông tin bản quyền gốc.
+
+2. Phần mềm quản lý bệnh án (Đảm bảo mọi nơi triển khai đều phải chia sẻ cải tiến)
+Giấy phép lựa chọn: AGPLv3 (Affero General Public License v3).
+Lập luận: Phần mềm quản lý bệnh án thường được triển khai dưới dạng dịch vụ web/Cloud (SaaS). Với giấy phép GPL thông thường, các đơn vị sử dụng có thể sửa đổi mã nguồn rồi chạy trên máy chủ riêng mà không cần công bố cải tiến (do không phân phối phần mềm đóng gói). AGPLv3 lấp lỗ hổng này bằng Điều 13: bắt buộc mọi đơn vị cung cấp dịch vụ qua mạng phải công bố mã nguồn đã sửa đổi cho người dùng cuối, đảm bảo mọi cải tiến cho hệ thống bệnh án đều được đóng góp lại cho cộng đồng.
+
+3. Nền tảng thương mại điện tử có bản bản doanh nghiệp (Dual-licensing)
+Giấy phép lựa chọn: GPLv3 (kết hợp cấp phép thương mại song song).
+Lập luận: Dùng mô hình Dual-licensing (cấp phép kép). Bản Community sẽ phát hành theo GPLv3 (Copyleft mạnh). Nếu các doanh nghiệp muốn tích hợp nền tảng này vào hệ sinh thái đóng nguồn hoặc phân phối lại mà không muốn lộ mã nguồn riêng, họ bắt buộc phải mua Giấy phép Thương mại (Commercial License) từ tác giả. Mô hình này giúp bảo vệ bản miễn phí và tạo nguồn thu bền vững cho phiên bản Enterprise.

@@ -1,0 +1,15 @@
+Sự việc lựa chọn: Artifex kiện Hancom (Hoa Kỳ, 2017).
+
+1. Các bên và giấy phép liên quan:
+Nguyên đơn: Artifex Software, công ty sở hữu công nghệ Ghostscript (phần mềm diễn giải định dạng PDF và PostScript). Artifex áp dụng mô hình "cấp phép kép" (dual-licensing): Ghostscript được phát hành miễn phí cho cộng đồng dưới giấy phép copyleft mạnh là GNU GPL, đồng thời công ty cũng bán giấy phép thương mại đóng nguồn cho các doanh nghiệp không muốn bị ràng buộc bởi GPL.
+Bị đơn: Hancom, một tập đoàn phần mềm lớn của Hàn Quốc, đơn vị phát triển và kinh doanh bộ phần mềm văn phòng Hancom Office.
+
+2. Diễn biến và lập luận của các bên:
+Sự việc bắt đầu khi Hancom tích hợp mã nguồn của Ghostscript vào phần mềm Hancom Office để hỗ trợ tính năng xuất và đọc định dạng PDF. Tuy nhiên, Hancom đã phát hành Hancom Office dưới dạng phần mềm thương mại, đóng mã nguồn để thu lợi nhuận. Artifex yêu cầu Hancom phải trả phí mua giấy phép thương mại, hoặc phải tuân thủ GPL (mở toàn bộ mã nguồn Hancom Office). Hancom từ chối.
+Tại tòa, Artifex lập luận rằng Hancom đã nhúng mã nguồn GPL vào một tác phẩm phái sinh phân phối thương mại mà không chịu mở mã nguồn, vi phạm trực tiếp các điều kiện cốt lõi của giấy phép GPL, dẫn đến việc vi phạm hợp đồng và xâm phạm bản quyền.
+Ngược lại, Hancom lập luận bác án bằng cách cho rằng GPL chỉ là một văn bản cấp phép vô hình, không có chữ ký xác nhận của hai bên. Do đó, theo luật hợp đồng truyền thống, văn bản này không thể coi là một "hợp đồng" có tính ràng buộc pháp lý đối với họ.
+
+3. Kết quả và ý nghĩa pháp lý:
+Thẩm phán Jacqueline Scott Corley đã bác bỏ hoàn toàn lập luận của Hancom. Tòa án phán quyết rằng giấy phép nguồn mở như GPL hoàn toàn có giá trị như một hợp đồng ràng buộc pháp lý có thể thực thi. Việc Hancom chủ động tải xuống, sử dụng và phân phối mã nguồn Ghostscript được xem là hành động "mặc nhiên chấp thuận" các điều khoản của hợp đồng GPL, dù không có chữ ký vật lý.
+Nhận thấy rủi ro pháp lý quá lớn và nguy cơ phải công khai toàn bộ mã nguồn phần mềm kinh doanh cốt lõi của mình, Hancom đã nhanh chóng dàn xếp hòa giải kín với Artifex (thường bằng việc trả một khoản bồi thường lớn và mua giấy phép thương mại hợp lệ).
+Ý nghĩa pháp lý: Vụ án này là một cột mốc cực kỳ quan trọng. Nó đánh tan định kiến của nhiều doanh nghiệp cho rằng "giấy phép nguồn mở không có giá trị cưỡng chế", đồng thời trở thành án lệ cảnh tỉnh các tập đoàn thương mại rằng họ không thể phớt lờ các nghĩa vụ pháp lý khi sử dụng phần mềm có giấy phép copyleft.

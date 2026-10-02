@@ -1,11 +1,8 @@
-1. Thư viện Python xử lý tiếng Việt (Muốn được dùng rộng rãi nhất)
-Giấy phép lựa chọn: MIT License (hoặc Apache 2.0).
-Lập luận: Mục tiêu tối thượng của dự án là mức độ phủ sóng và phổ biến tối đa. Giấy phép Dễ dãi (Permissive) như MIT cho phép bất kỳ ai — từ sinh viên, nhà nghiên cứu đến các tập đoàn công nghệ lớn — đều có thể tích hợp thư viện này vào sản phẩm của họ (cả mở lẫn đóng nguồn) mà không sợ rào cản pháp lý. Nghĩa vụ duy nhất là giữ lại thông tin bản quyền gốc.
+Dự án: Thư viện Python xử lý tiếng Việt muốn được dùng rộng rãi nhất có thể.
+Giấy phép đề xuất: MIT License (Giấy phép dễ dãi - Permissive License).
 
-2. Phần mềm quản lý bệnh án (Đảm bảo mọi nơi triển khai đều phải chia sẻ cải tiến)
-Giấy phép lựa chọn: AGPLv3 (Affero General Public License v3).
-Lập luận: Phần mềm quản lý bệnh án thường được triển khai dưới dạng dịch vụ web/Cloud (SaaS). Với giấy phép GPL thông thường, các đơn vị sử dụng có thể sửa đổi mã nguồn rồi chạy trên máy chủ riêng mà không cần công bố cải tiến (do không phân phối phần mềm đóng gói). AGPLv3 lấp lỗ hổng này bằng Điều 13: bắt buộc mọi đơn vị cung cấp dịch vụ qua mạng phải công bố mã nguồn đã sửa đổi cho người dùng cuối, đảm bảo mọi cải tiến cho hệ thống bệnh án đều được đóng góp lại cho cộng đồng.
-
-3. Nền tảng thương mại điện tử có bản bản doanh nghiệp (Dual-licensing)
-Giấy phép lựa chọn: GPLv3 (kết hợp cấp phép thương mại song song).
-Lập luận: Dùng mô hình Dual-licensing (cấp phép kép). Bản Community sẽ phát hành theo GPLv3 (Copyleft mạnh). Nếu các doanh nghiệp muốn tích hợp nền tảng này vào hệ sinh thái đóng nguồn hoặc phân phối lại mà không muốn lộ mã nguồn riêng, họ bắt buộc phải mua Giấy phép Thương mại (Commercial License) từ tác giả. Mô hình này giúp bảo vệ bản miễn phí và tạo nguồn thu bền vững cho phiên bản Enterprise.
+Lập luận:
+Đối với một thư viện Python xử lý ngôn ngữ tự nhiên như tiếng Việt, mục tiêu cốt lõi của nhóm phát triển là đạt được mức độ phổ biến và áp dụng rộng rãi nhất có thể trong cộng đồng. Để đạt được mục tiêu này, MIT License là sự lựa chọn tối ưu nhất.
+- MIT thuộc nhóm giấy phép dễ dãi. Nó cho phép bất kỳ ai tải xuống, sử dụng, sao chép, sửa đổi, gộp chung và thậm chí phân phối lại phần mềm mà gần như không có giới hạn nào. Điều kiện duy nhất mà MIT yêu cầu là người dùng phải giữ lại thông báo bản quyền ban đầu và bản sao của giấy phép trong mã nguồn. Sự đơn giản này giúp các nhà phát triển cá nhân lẫn các kỹ sư doanh nghiệp dễ dàng đọc hiểu và yên tâm sử dụng mà không cần phải nhờ đến bộ phận pháp chế đánh giá phức tạp.
+- Điểm quyết định khiến MIT vượt trội hơn các giấy phép nhóm copyleft (như GPL) trong trường hợp này là sự vắng mặt của "tính lây nhiễm". Nếu chúng ta sử dụng giấy phép copyleft mạnh như GPLv3, bất kỳ phần mềm nào tích hợp thư viện này đều bị buộc phải mở mã nguồn theo cùng giấy phép. Điều này sẽ tạo ra rào cản cực lớn đối với các công ty gia công phần mềm hoặc các startup muốn xây dựng sản phẩm thương mại mã nguồn đóng (ví dụ: chatbot nội bộ, hệ thống phân tích dữ liệu khách hàng). Họ sẽ ngay lập tức loại bỏ thư viện của chúng ta khỏi danh sách cân nhắc để tránh rủi ro pháp lý lộ mã nguồn kinh doanh.
+Ngược lại, với MIT License, các doanh nghiệp hoàn toàn có thể nhúng thư viện Python xử lý tiếng Việt này vào sản phẩm đóng nguồn thương mại của họ một cách an toàn. Bằng cách xóa bỏ rào cản từ các dự án thương mại, thư viện sẽ tiếp cận được tệp người dùng khổng lồ nhất, từ các sinh viên làm bài tập nhỏ đến các tập đoàn công nghệ lớn, qua đó hoàn thành xuất sắc mục tiêu "dùng rộng rãi nhất có thể".

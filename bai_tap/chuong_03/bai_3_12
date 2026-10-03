@@ -1,0 +1,2 @@
+**12. Vì sao `@app.errorhandler(404)` phải trả kèm mã 404?**
+* Nếu view function của hàm xử lý lỗi này chỉ trả về giao diện (HTML) mà không kèm theo trạng thái HTTP rõ ràng, Flask sẽ mặc định coi request đó là thành công và trả về mã trạng thái **200 (OK)**. Điều này sai lệch chuẩn HTTP, gây nhầm lẫn cho các trình duyệt và công cụ tìm kiếm.
